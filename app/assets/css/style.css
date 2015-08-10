@@ -78,12 +78,34 @@ body {
 }
 
 #create-view ul {
+  -moz-column-count: 2;
+  -moz-column-gap: 2.5em;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 2.5em;
+  column-count: 2;
+  column-gap: 2.5em;
+  text-align: center;
+  margin: 0 auto 0 auto;
   padding: 10px;
+  width: 75%;
 }
 
 #create-view li {
 
 }
+
+#join-view {          
+   height: 50vh;
+   margin-top: 10vh;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+
+#join-view p {
+  padding: 25px;
+}
+
 
 #title {
   font-size: 25vh;
@@ -123,5 +145,7 @@ a:hover, a:active {
 }
 
 #game-code {
+  color: #0099FF;
   font-size: 15vh;
+  padding: 25px;
 }
