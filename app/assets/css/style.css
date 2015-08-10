@@ -94,18 +94,23 @@ body {
 
 }
 
-#join-view {          
+
+#container {          
    height: 50vh;
-   margin-top: 10vh;
+   margin-top: 25vh;
    background-color: black;
    color: white;
    text-align: center;
 }
 
+#join-view {          
+   height: 50vh;
+   margin-top: 10vh;
+}
+
 #join-view p {
   padding: 25px;
 }
-
 
 #title {
   font-size: 25vh;
@@ -128,6 +133,10 @@ footer {
   position: fixed;
   bottom: 5px;
   right: 5%;
+}
+
+footer {
+  text-align: center;
 }
 
 a:link, a:visited {
