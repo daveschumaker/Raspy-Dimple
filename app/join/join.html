@@ -1,16 +1,15 @@
-<h1>JOIN VIEW</h1>
-
-<div>
+<div id="join-view">
+  <h2>Join a game</h2>
 
   <form>
     <p>
-      <label>Enter code to join game:</label>
+      <label>Enter code to join game:</label><br/>
       <input ng-model='join.code'>
     </p>
     <p>
-      <label>Enter your name:</label>
+      <label>Enter your name:</label><br/>
       <input ng-model='join.name'>
     </p>
-    <button name="submit" ng-click="go()">GO!</button>
+    <a id="go-button" ng-click="go()" href="#">GO!</a>
   </form>
 </div>
