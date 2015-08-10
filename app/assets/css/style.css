@@ -63,12 +63,26 @@ body {
     padding: 0;
 }
 
-#container {          
+#home-view {          
    height: 50vh;
    margin-top: 25vh;
+   text-align: center;
+}
+
+#create-view {          
+   height: 50vh;
+   margin-top: 10vh;
    background-color: black;
    color: white;
    text-align: center;
+}
+
+#create-view ul {
+  padding: 10px;
+}
+
+#create-view li {
+
 }
 
 #title {
@@ -76,8 +90,16 @@ body {
   padding-bottom: 25px;
 }
 
+h2 {
+  font-size: 8vh;
+  padding: 25px;
+}
+
 footer {
+  bottom: 5px;
+  position: fixed;
   text-align: center;
+  width: 100%;
 }
 
 a:link, a:visited {
@@ -92,4 +114,8 @@ a:hover, a:active {
 
 #home-options p {
   padding: 10px;
+}
+
+#game-code {
+  font-size: 15vh;
 }
