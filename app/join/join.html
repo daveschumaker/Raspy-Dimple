@@ -4,12 +4,12 @@
   <form>
     <p>
       <label>Enter code to join game:</label><br/>
-      <input ng-model='join.code'>
+      <input type="text" ng-model='join.code' required>
     </p>
     <p>
       <label>Enter your name:</label><br/>
-      <input ng-model='join.name'>
+      <input type="text" ng-model='join.name' required>
     </p>
-    <a id="go-button" ng-click="go()" href="#">GO!</a>
+    <p id="go-button"><a ng-click="go()" href="#">GO!</a></p>
   </form>
 </div>

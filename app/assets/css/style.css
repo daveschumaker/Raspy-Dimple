@@ -106,6 +106,18 @@ body {
   padding: 25px;
 }
 
+input[type="text"] {
+  padding: 10px;
+  margin-top: 10px;
+  border: solid 5px #c9c9c9;
+  width: 40%;
+  transition: border 0.3s;
+}
+input[type="text"]:focus,
+input[type="text"].focus {
+  border: solid 5px #969696;
+}
+
 
 #title {
   font-size: 25vh;
@@ -125,9 +137,8 @@ footer {
 }
 
 #go-button {
-  position: fixed;
-  bottom: 5px;
-  right: 5%;
+  padding: 25px;
+  text-align: center;
 }
 
 a:link, a:visited {
