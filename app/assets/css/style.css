@@ -102,6 +102,12 @@ footer {
   width: 100%;
 }
 
+#go-button {
+  position: fixed;
+  bottom: 5px;
+  right: 5%;
+}
+
 a:link, a:visited {
     color: #fff;
     text-decoration: none;
