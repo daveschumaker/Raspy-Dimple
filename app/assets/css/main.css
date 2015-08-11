@@ -9,20 +9,25 @@ html {
   font-size: 1em;
 }
 
-/* ********
+/*******************************************
    Global Styles
-   ******** */
+ *******************************************/
 
 body {
   background-color: #000;
   color: #fff;
   font-family: 'Sigmar One', cursive;
+  font-size: 5vh;
 }
 
 .main-container {
   margin: 0 auto 0 auto;
   text-align: center;
   width: 100%;
+}
+
+h1, h2, p {
+  margin: 0;
 }
 
 a:link, a:visited {
@@ -32,4 +37,61 @@ a:link, a:visited {
 
 a:hover {
   color: #00CED1;
+}
+
+footer {
+  font-size: 3vh;
+  text-align: center;
+  padding: 100px 0 0 0;
+}
+
+/*******************************************
+   HOST: Home view
+ *******************************************/
+
+#home-view {          
+   height: 40vh;
+   margin: 25vh 0 0 0;
+   text-align: center;
+}
+
+#title {
+  font-size: 25vh;
+  padding: 0;
+}
+
+/*******************************************
+   HOST: Create New Game view
+ *******************************************/
+
+#create-host-view {          
+  background-color: black;
+  color: white;
+  height: 50vh;
+  margin-top: 8vh;
+  text-align: center;
+}
+
+#create-host-view ul {
+  -moz-column-count: 2;
+  -moz-column-gap: 2.5em;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 2.5em;
+  column-count: 2;
+  column-gap: 2.5em;
+  margin: 0 auto 0 auto;
+  padding: 10px;
+  text-align: center;
+  width: 75%;
+}
+
+#create-host-view p {
+  padding: 0;
+}
+
+#game-code {
+  color: #0099FF;
+  font-size: 15vh;
+  margin: 0;
+  padding: 0;
 }
