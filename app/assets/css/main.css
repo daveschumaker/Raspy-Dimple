@@ -2,10 +2,34 @@
 *   Styles for Exposed Web App.   
 */
 
+/* Import and reset CSS styles before we do anything else. */
+@import url("normalize.min.css");
 
+html {
+  font-size: 1em;
+}
 
-/**
-*   Import and reset CSS styles before we do anything else.
-*/
+/* ********
+   Global Styles
+   ******** */
 
-@import url("reset.css");
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Sigmar One', cursive;
+}
+
+.main-container {
+  margin: 0 auto 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
+a:link, a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00CED1;
+}
