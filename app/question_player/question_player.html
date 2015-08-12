@@ -1,7 +1,7 @@
 <div id="question-player-view">
   <div ng-show="!holdView">
-    <p>Current Round: {{ currentRound }}</p>
-    <p>{{question}}</p>
+    <p id="current-round">Question {{ currentRound }}:</p>
+    <p id="question">{{question}}</p>
     <p>{{timeLeft.$value-2}}</p>
     <form ng-submit="submitPlayerAnswer(answer)">
       <input ng-model="answer" type="textarea"/>

@@ -2,14 +2,16 @@
   <h2>Join a game!</h2>
   <form ng-show="activeGame">
     <p>
-      <label>Enter code to join game:</label>
-      <input ng-model='join.code'>
+      <label>Enter code to join game:</label><br/>
+      <input ng-model='join.code' required>
     </p>
     <p>
-      <label>Enter your name:</label>
-      <input ng-model='join.name'>
+      <label>Enter your name:</label><br/>
+      <input ng-model='join.name' required>
     </p>
-    <button name="submit" ng-click="go()">GO!</button>
+    <p id="go-button">
+      <a ng-click="go()" href="#">→ → → GO! ← ← ←</a>
+    </p>    
   </form>
 
   <div ng-show="!activeGame">
