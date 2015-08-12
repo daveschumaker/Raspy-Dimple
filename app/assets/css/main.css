@@ -66,9 +66,10 @@ input {
 }
 
 #go-button {
-  bottom: 10%;
+  bottom: 20%;
+  margin: 0 auto 0 auto;
   text-align: center;
-  position: fixed;
+  position: absolute;
   width: 100%;  
 }
 /*******************************************
@@ -120,8 +121,45 @@ input {
   padding: 0;
 }
 
+
 /*******************************************
-   HOST: Player Question view
+   Shared view elements between host and player
+ *******************************************/
+
+ #current-round {
+  font-size: 5vh;
+  padding: 0 0 50px 0;
+  text-align: left;
+ }
+
+/*******************************************
+   Host Question Display view
+ *******************************************/
+
+ #question-host-view {
+  height: 50vh;
+  margin: 8vh auto 0 auto;
+  text-align: center;
+  width: 75%;
+ }
+
+ #question-host-view #question {
+  font-size: 10vh;
+  line-height: 10vh;
+  padding: 2vh;
+  text-align: center;
+ }
+
+#question-host-view #timer {
+  bottom: 3%;
+  font-size: 3vh;
+  padding: 2vh;
+  position: absolute;
+  right: 5%;
+ }
+
+/*******************************************
+   Player Question view
  *******************************************/
 
  #question-player-view {
